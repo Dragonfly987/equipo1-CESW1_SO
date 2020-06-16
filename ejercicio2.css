@@ -1,0 +1,50 @@
+body{
+  background-color: cornsilk;
+  text-align: center;
+  grid-row: 0;
+}
+
+
+
+.container{
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  
+ 
+}
+.uno {
+  grid-column: 1 / 3;
+  grid-row: 1/2;
+  background-color: rgb(49, 255, 159);
+  
+}
+.dos { 
+  grid-column: 3/ 6;
+  grid-row: 1 / 3;
+  background-color: rgb(49, 255, 159);
+}
+.tres {
+  grid-column: 1/2;
+  grid-row: 2/6;
+  background-color: rgb(49, 255, 159);
+
+}
+.cuatro {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: rgb(49, 255, 159);
+}
+.cinco {
+  grid-column:2/3;
+  grid-row: 3/6;
+  background-color: rgb(49, 255, 159);
+}
+.seis {
+  grid-column: 3/6;
+  grid-row: 3/6;
+  background-color: rgb(49, 255, 159);
+}
